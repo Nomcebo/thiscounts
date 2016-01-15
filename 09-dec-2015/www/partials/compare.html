@@ -1,0 +1,66 @@
+
+<nav id = "nav2">
+  <nav id = "nav2-wrapper">
+          <ul>
+           <img onclick="history.go(-1)" id ="imgback" src ="http://i.stack.imgur.com/SKtqE.png" />
+          </ul>
+        </nav>  
+  </nav>
+
+<div data-role="page">
+  <div data-role="header">
+  </div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+    <select id="cd-dropdown" class="cd-select" ng-model = "comparisonOption">
+	<option value="-1" ng-selected="true">What would you like to compare</option>
+	<option value="partials/comparePartial/airtimeCompare.html" >Airtime</option>
+	<option value="partials/comparePartial/bundleCompare.html" >Data Bundles</option>
+</select>
+
+
+<!-- <div ng-include = "comparisonOption"></div>
+ -->
+<br/>
+<br/>
+    <select id="cd-dropdown" class="cd-select" ng-model = "ranges" >
+
+  <option  ng-selected="true" value="-1">Compare Data</option>
+  <option value="1" >30</option>
+  <option value="2" >100</option>
+  <option value="3" >300</option>
+    <option value="3" >500</option>
+      <option value="3">1GB</option>
+       <option value="3" >2GB</option>
+</select>
+
+
+<br/>
+<br>
+     <select id="cd-dropdown" class="cd-select" ng-model = "rangesAirtime" >
+
+  <option  ng-selected="true" value="-1">Compare Airtime</option>
+  <option value="1" >R5 - R10</option>
+  <option value="2" >R11 - R20</option>
+  <option value="3" >R21 - R30</option>
+    <option value="3" >R31 - R40</option>
+      <option value="3">R41 - R50</option>
+       <option value="3" >R51 - R60</option>
+</select>
+            <h1 >Vodacom: {{vodacom}}</h1> 
+            <h1 >MTN: {{mtn}}</h1> 
+            <h1 >8ta: {{tadata}}</h1> 
+            <h1 >VirginMobile: {{virginMobile}}</h1> 
+            <h1 >Cell C: {{CellC}}</h1> 
+
+
+<form class="registration">
+
+<br/>
+<a class="button" ng-click="compare()" >MAKE COMPARISON<i class="icon-chevron-right"></i></a>
+
+</form>
+

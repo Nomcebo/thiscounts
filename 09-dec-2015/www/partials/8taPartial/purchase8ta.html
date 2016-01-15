@@ -1,0 +1,10 @@
+<select id="cd-dropdown" class="cd-select" ng-model="purchasePartial">
+	<option ng-selected="true">Purchase Options</option>
+	<option value="partials/8taPartial/purchasePartial8ta.html" class="icon-monkey">Airtime</option>
+	<option value="partials/8taPartial/purchasePartialData.html" class="icon-bear">Data Bundles</option>
+</select>
+    
+<br/>
+<br/>
+    
+    <div ng-include = "purchasePartial"></div>

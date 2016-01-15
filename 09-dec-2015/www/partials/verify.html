@@ -1,0 +1,53 @@
+<nav id = "nav2">
+  <nav id = "nav2-wrapper">
+          <ul>
+       <img onclick="history.go(-1)" id ="imgback" src ="http://i.stack.imgur.com/SKtqE.png" />
+          </ul>
+        </nav>  
+  </nav>
+
+<section class="registration">
+
+		
+
+		<div class="form-info">
+
+	</br>
+
+		<dd>FullNames</dd> 
+		<h1 ng-init="registerAccount()" ng-model="detail">{{details.surname }} {{ details.firstname}}</h1>
+		
+        <dd>Email</dd>
+        <h1>{{details.email}}</h1>
+    
+		</br>
+		<dd>Id Number</dd> 
+		<h1>{{details.idNo}}</h1>
+		</br>
+		<dd>Cellphone Number</dd> 
+		<h1>{{details.cellphone}}</h1>
+		</br>
+		<!-- <input type="text" class="text" value="myPassword" ng-model="myPassword" placeholder ="Please enter app-Password"> --> 
+        <dd>Other Cellphone Number</dd>
+        <h1>{{details.othercellphone}}</h1>
+
+		<dd>App Password</dd> 
+		<h1>{{temporaryP}}</h1>
+    
+
+<!--  <h1>{{details.balance = 10 +10}}</h1>  -->
+		<a  id = "btnSignin" ng-click ="regUpdate()" class="button">PROCEED<i class="icon-chevron-right"></i></a>
+		<br/>
+				<d ng-init="retrieveDetails()" ng-model="printers">{{printers}}</d> 	
+		</div>
+
+		<!-- <input   value="balance" ng-model="balance" placeholder ="Balance" >
+		<a href="#/testing" class="button">SIGNIN <i class="icon-chevron-right"></i></a> -->
+<br/>
+
+	</div>	
+
+		
+	 
+					
+</section>

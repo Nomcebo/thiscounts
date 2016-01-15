@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+
+<html ng-app="myApp">	
+<head>
+<title>login</title>
+
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.2/angular-route.min.js"></script>  -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
+<!--<script src="https://code.angularjs.org/1.4.8/angular-route.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.2/angular-route.min.js"></script>
+
+
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/controllers.js"></script>
+<script type="text/javascript" src="js/factories.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+<!-- <script type="text/javascript" src="js/index.js"></script> -->
+
+<meta name="viewport" content="user-scalable=no,width=device-width, initial-scale=1,maximum-scale=1, minimum-scale=1, height=device-height"/>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    
+<meta name="format-detection" content="telephone=no" />
+<!-- <meta name="https://github.com/apache/cordova-plugin-whitelist.git" content="no" /> -->
+<meta name="msapplication-tap-highlight" content="no" />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!--webfonts-->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Marvel:400,700' rel='stylesheet' type='text/css'>
+<!--//webfonts-->
+    
+ <script
+        type="text/javascript"
+        src="//code.jquery.com/jquery-2.0.3.min.js">
+    </script>
+    
+
+
+ <script language="javascript">
+ 
+                 function subtractBalance()
+                 {
+                         var currentAmount =parseFloat(document.getElementById("cd-dropdown3").value);
+                         var subtractedAmount = 10;
+                         var ansD = document.getElementById("answer");
+
+                         ansD.value = currentAmount- subtractedAmount;
+            
+                         
+
+                 }
+  </script>
+ 	
+</head>
+<body>
+	
+	<div ng-view ></div>
+	<!---->
+	      <script type="text/javascript">
+       //      app.initialize();
+         </script>
+        
+     <!---->
+
+
+</body>
+</html>

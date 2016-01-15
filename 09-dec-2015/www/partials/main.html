@@ -1,0 +1,52 @@
+<section class="main">
+
+    <div ng-init="login()">
+				
+						<input type="checkbox" id="menuToggle">
+					
+							<nav id = "nav2">
+							<div id = "brand">Promotions
+				 			</div> 	<label for= "menuToggle" class= menu-icon>&#9776</label>
+
+							</nav>
+			</br>
+				<nav id = "mn" class = "menu">
+					<ul>
+						</br>
+						<li><a href ="#/">LOGOUT</a> </li>
+						<li><a href ="#/purchase">PURCHASE</a> </li>
+						<li><a href ="#/testing">STATEMENT</a> </li>
+						<li><a href ="#/compare">COMPARE</a> </li>
+						<li><a href ="#/profile">PROFILE</a> </li>
+			
+			</div>
+						
+					</ul>
+				</nav>
+
+				<br/>
+
+				<div>
+    <a id= "objRef" ng-repeat = "obj in display" ><br/> 	
+        
+        <div class="spI">
+		<img src="{{obj.$spImage}}.png"  />
+        <h1>{{obj.$$promoDescription}}</h1>
+ 
+			</div></a>
+                
+       
+		
+<!--		<img src="{{imgz.$img}}"  />-->
+     
+   
+                    
+        </div>
+  
+  
+		 </div>
+
+
+</section>
+
+	

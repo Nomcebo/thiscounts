@@ -1,0 +1,63 @@
+<nav id = "nav2">
+  <nav id = "nav2-wrapper">
+          <ul>
+       <img onclick="history.go(-1)" id ="imgback" src ="http://i.stack.imgur.com/SKtqE.png" />
+          </ul>
+        </nav>  
+  </nav>
+
+<section class="registration">
+
+
+
+<div class="form-info">
+
+	</br>
+
+		<dd>FullNames
+		<h1 ng-init="registerAccount()" ng-model="show">{{show2.firstname}}{{show2.surname}} </h1></dd> 
+		
+		</br>
+		<dd>Account Number<h1>{{show2.accountNr}}</h1>
+		</dd>
+		
+		</br>
+		<dd>Current Balance<h1>R {{show2.balance}}</h1></dd> 
+		</br>
+
+
+    <dd>Transaction Details
+<nav2 class = "menu2">
+          <ul>
+              <header2> 
+            <li><h1 ng-repeat="column in show">Transaction: R{{column.$transAmount }}</br>
+              Date/Time:  {{ column.$transTime}}</br>
+              Balance after transaction:  R{{ column.$savedAmount}}</br>
+              Balance before purchase:  R{{ column.$transBalance}}</h1> </li>
+
+
+                <header2>
+   
+          </ul>
+</nav2>
+	</dd> 
+		</br>
+
+	</div> 
+				
+</section>
+
+
+
+  
+
+
+
+
+<!--  <h1>{{details.balance = 10 +10}}</h1>  -->
+
+				<!-- <d ng-init="retrieveDetails()" ng-model="printers">{{printers}}</d> 	 -->
+
+
+		<!-- <input   value="balance" ng-model="balance" placeholder ="Balance" >
+		<a ng-click="updateCalc()"   class="button">SIGNIN <i class="icon-chevron-right"></i></a> -->

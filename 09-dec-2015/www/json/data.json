@@ -1,0 +1,76 @@
+[{
+	"mtn_data" : "20MB for R12",
+	"vodacom_data" : "30MB for R12.00",
+	"ta_data" : "25MB for R6.00",
+	"virginMobile" : "30",
+	"CellC" :"25MB for R6.00"
+},
+
+{
+	"mtn_data" : "100MB for R35.00",
+	"vodacom_data" : "100MB for R29.00",
+	"ta_data" : "100MB for R29.00",
+	"CellC" : "100MB for R19.00"
+},
+
+{
+	"mtn_data" : "300MB for R85.00",
+	"vodacom_data" : "250MB for R59.00",
+	"ta_data" : "250MB for R39.00",
+	"CellC" : "200 SMSes for R45.00"
+	
+},
+ 
+ {
+    "mtn_data" : "R5.00",
+	"vodacom_data" : "R5.00",
+	"ta_data" : "250MB for R39.00",
+	"CellC" : "R5.00",
+     "CellC" : "R10.00"
+ },
+  {
+    "mtn_data" : "R10.00",
+    "mtn_data":"R15.00",
+	"vodacom_data" : "R12.00",
+    "vodacom_data" : "",
+	"ta_data" : "250MB for R39.00",
+	"CellC" : ""
+ },
+  {
+    "mtn_data" : "300MB for R85.00",
+	"vodacom_data" : "R29.00",
+	"ta_data" : "250MB for R39.00",
+	"CellC" : "R25.00"
+
+ },
+  {
+    "mtn_data" : "R30.00",
+	"vodacom_data" : "",
+	"ta_data" : "250MB for R39.00",
+	"CellC" : "R35.00"
+ },
+  {
+    "mtn_data" : "R60.00",
+	"vodacom_data" : "R55.00",
+	"ta_data" : "250MB for R39.00",
+	"CellC" : "R50.00"
+
+ },
+ 
+ {
+     "airtime":"R12.00",
+     "airtime":"R35.00",
+     "airtime":"R85.00",
+     "airtime":"R59.00",
+     "airtime":"R5.00"
+ },
+ 
+  {
+     "dataBundel":"5MB",
+     "dataBundel":"10MB",
+     "dataBundel":"25MB",
+     "dataBundel":"1GB"
+    
+ }
+
+]

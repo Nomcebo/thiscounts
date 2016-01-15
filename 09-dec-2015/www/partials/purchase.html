@@ -1,0 +1,46 @@
+
+<nav id = "nav2">
+    
+  <nav id = "nav2-wrapper">
+        
+           <img onclick="history.go(-1)" id ="imgback" src ="http://i.stack.imgur.com/SKtqE.png" />
+             
+        </nav>  
+  </nav>
+
+<div data-role="page">
+  <div data-role="header">
+  </div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+    
+<!--    ng-model="sprovider"-->
+ 
+<select id="cd-dropdown" ng-model="sprovider" class="" >
+  <option ng-selected="true">Select Service Provider</option>
+  <option value="partials/vodacomPartials/purchaseSP.html"  class="icon-monkey">Vodacom</option>
+  <option value="partials/mtnPartials/purchaseMtn.html" class="icon-bear">MTN</option>
+  <option value="partials/8taPartial/purchase8ta.html" class="icon-squirrel">8ta</option>
+</select>
+    
+<br/>
+<br/>
+
+    <div ng-include = "sprovider"></div>
+
+<br/>
+
+<!-- <a id ="ansD" ng-model="savedAmount"></a> -->
+<form class="registration">
+
+<input ng-model="savedAmount" type="text"  class="text"  placeholder ="Cellphone Number"> 
+<br/>
+<br/>
+ 
+<a  class="button" ng-click="transInsert()" >MAKE A PURCHASE<i class="icon-chevron-right"></i></a>
+<a href = "http://www.absa.co.za/Absacoza/Individual/Switch-to-Absa/Open-an-Absa-Account" class="button">OPEN BANK ACCOUNT<i class="icon-chevron-right"></i></a>
+</form>
+
